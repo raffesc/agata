@@ -1,0 +1,6 @@
+framework module Pods_Agata_AgataUITests {
+  umbrella header "Pods-Agata-AgataUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
