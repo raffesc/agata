@@ -1,0 +1,70 @@
+[30-Jul-2020 10:48:53 UTC] PHP Notice:  Undefined index: HTTP_AUTH_TOKEN in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list.php on line 20
+[30-Jul-2020 10:49:16 UTC] PHP Notice:  Undefined index: HTTP_AUTH_TOKEN in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list.php on line 20
+[30-Jul-2020 10:49:18 UTC] PHP Notice:  Undefined index: HTTP_AUTH_TOKEN in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list.php on line 20
+[30-Jul-2020 10:50:25 UTC] PHP Notice:  Undefined index: HTTP_AUTH_TOKEN in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list.php on line 20
+[30-Jul-2020 10:50:48 UTC] PHP Notice:  Undefined index: HTTP_AUTH_TOKEN in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list.php on line 20
+[30-Jul-2020 10:50:48 UTC] PHP Notice:  Undefined index: HTTP_AUTH_TOKEN in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list.php on line 21
+[30-Jul-2020 10:53:06 UTC] PHP Notice:  Undefined property: Auth::$authenticate in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list.php on line 27
+[30-Jul-2020 11:11:05 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/create.php on line 63
+[30-Jul-2020 11:11:34 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/create.php on line 100
+[30-Jul-2020 11:11:52 UTC] PHP Notice:  Undefined property: stdClass::$main_color in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/create.php on line 58
+[30-Jul-2020 11:22:14 UTC] PHP Notice:  Undefined property: stdClass::$main_color in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/create.php on line 58
+[30-Jul-2020 11:37:19 UTC] PHP Notice:  Trying to get property 'id_owner' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/publish.php on line 55
+[30-Jul-2020 11:37:19 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/publish.php on line 56
+[30-Jul-2020 11:39:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::getMessage() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/objects/project.php:115
+Stack trace:
+#0 /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/publish.php(84): Project->publish()
+#1 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/objects/project.php on line 115
+[30-Jul-2020 11:39:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::getErrorInfo() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/objects/project.php:115
+Stack trace:
+#0 /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/publish.php(84): Project->publish()
+#1 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/objects/project.php on line 115
+[30-Jul-2020 11:54:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 79
+[30-Jul-2020 11:54:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 79
+[30-Jul-2020 11:54:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 80
+[30-Jul-2020 11:54:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 80
+[30-Jul-2020 11:57:46 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 77
+[30-Jul-2020 11:57:46 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 77
+[30-Jul-2020 11:59:23 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 81
+[30-Jul-2020 11:59:38 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 79
+[30-Jul-2020 12:00:01 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 79
+[30-Jul-2020 12:03:32 UTC] PHP Notice:  Undefined index: id_user in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 83
+[30-Jul-2020 12:03:32 UTC] PHP Notice:  Undefined index: id_user in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 83
+[30-Jul-2020 12:13:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Project::add_user() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/add_user.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/add_user.php on line 87
+[30-Jul-2020 12:15:22 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:22 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:22 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:22 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:26 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:26 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:26 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:26 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:59 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:59 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:59 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:15:59 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:16:10 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:16:10 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:16:10 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:16:10 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 78
+[30-Jul-2020 12:16:43 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 77
+[30-Jul-2020 12:16:43 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 77
+[30-Jul-2020 12:16:43 UTC] PHP Notice:  Undefined variable: json_string in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 77
+[30-Jul-2020 12:16:43 UTC] PHP Warning:  preg_replace(): No ending delimiter '&amp;' found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 77
+[30-Jul-2020 12:18:13 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 82
+[30-Jul-2020 12:18:49 UTC] PHP Notice:  Undefined index: id_user in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 83
+[30-Jul-2020 12:18:49 UTC] PHP Notice:  Undefined index: id_user in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/list_user.php on line 83
+[07-Sep-2020 08:47:32 UTC] PHP Notice:  Undefined property: stdClass::$id_user in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/create.php on line 56
+[07-Sep-2020 08:48:26 UTC] PHP Notice:  Undefined property: stdClass::$id_user in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/create.php on line 56
+[07-Sep-2020 08:49:04 UTC] PHP Notice:  Undefined property: stdClass::$id_user in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/project/create.php on line 56

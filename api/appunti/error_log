@@ -1,0 +1,5 @@
+[30-Jul-2020 14:20:58 UTC] PHP Notice:  Trying to get property 'id_project' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/appunti/insert_category.php on line 55
+[30-Jul-2020 14:20:58 UTC] PHP Notice:  Trying to get property 'nome' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/appunti/insert_category.php on line 56
+[30-Jul-2020 14:25:30 UTC] PHP Notice:  Undefined variable: appunti_item in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/appunti/list.php on line 77
+[30-Jul-2020 14:25:30 UTC] PHP Notice:  Undefined variable: appunti_item in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/appunti/list.php on line 77
+[30-Jul-2020 14:28:26 UTC] PHP Notice:  Undefined index: id_project in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/appunti/list.php on line 46

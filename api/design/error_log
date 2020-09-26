@@ -1,0 +1,8 @@
+[04-Sep-2020 12:58:00 UTC] PHP Notice:  Undefined index: id_project in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/design/upload.php on line 29
+[04-Sep-2020 19:00:53 Asia/Dhaka] PHP Notice:  Undefined index: descrizione in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/design/upload.php on line 63
+[10-Sep-2020 21:00:13 Asia/Dhaka] PHP Warning:  finfo_file(): Empty filename or path in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/models/lib/Upload.php on line 92
+[10-Sep-2020 21:01:33 Asia/Dhaka] PHP Warning:  finfo_file(): Empty filename or path in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/models/lib/Upload.php on line 92
+[10-Sep-2020 21:05:16 Asia/Dhaka] PHP Warning:  finfo_file(): Empty filename or path in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/models/lib/Upload.php on line 92
+[10-Sep-2020 21:08:44 Asia/Dhaka] PHP Warning:  finfo_file(): Empty filename or path in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/models/lib/Upload.php on line 92
+[10-Sep-2020 21:09:06 Asia/Dhaka] PHP Warning:  finfo_file(): Empty filename or path in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/models/lib/Upload.php on line 92
+[24-Sep-2020 03:13:47 Asia/Dhaka] PHP Warning:  finfo_file(): Empty filename or path in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/models/lib/Upload.php on line 92

@@ -1,0 +1,104 @@
+[30-Jul-2020 10:06:13 UTC] PHP Notice:  Undefined property: stdClass::$username in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 40
+[30-Jul-2020 10:26:35 UTC] PHP Notice:  Undefined property: stdClass::$image in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 41
+[30-Jul-2020 10:26:35 UTC] PHP Notice:  Undefined property: stdClass::$nome in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 42
+[30-Jul-2020 10:26:35 UTC] PHP Notice:  Undefined property: stdClass::$cognome in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 43
+[30-Jul-2020 10:26:35 UTC] PHP Notice:  Undefined property: stdClass::$age in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 44
+[30-Jul-2020 10:27:36 UTC] PHP Notice:  Undefined property: stdClass::$username in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 40
+[30-Jul-2020 10:27:36 UTC] PHP Notice:  Undefined property: stdClass::$image in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 41
+[30-Jul-2020 10:27:36 UTC] PHP Notice:  Undefined property: stdClass::$nome in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 42
+[30-Jul-2020 10:27:36 UTC] PHP Notice:  Undefined property: stdClass::$cognome in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 43
+[30-Jul-2020 10:27:36 UTC] PHP Notice:  Undefined property: stdClass::$age in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/registration.php on line 44
+[31-Jul-2020 18:09:03 UTC] PHP Notice:  Trying to get property 'email' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/login.php on line 33
+[31-Jul-2020 18:09:03 UTC] PHP Notice:  Trying to get property 'password' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/login.php on line 34
+[02-Sep-2020 16:20:22 UTC] PHP Fatal error:  Cannot redeclare User::read() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/objects/user.php on line 83
+[02-Sep-2020 16:21:03 UTC] PHP Fatal error:  Cannot redeclare User::read() in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/objects/user.php on line 83
+[02-Sep-2020 16:48:33 UTC] PHP Notice:  Undefined variable: frontend_attribute in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 42
+[02-Sep-2020 16:48:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setDB() on null in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 42
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 53
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: priv in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 56
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: type in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 57
+[02-Sep-2020 16:50:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 53
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: priv in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 56
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: type in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 57
+[02-Sep-2020 16:50:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 53
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: priv in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 56
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: type in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 57
+[02-Sep-2020 16:50:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 53
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: priv in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 56
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: type in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 57
+[02-Sep-2020 16:50:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 53
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: priv in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 56
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: type in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 57
+[02-Sep-2020 16:50:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 53
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: priv in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 56
+[02-Sep-2020 16:50:10 UTC] PHP Notice:  Undefined variable: type in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 57
+[02-Sep-2020 16:50:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:50:39 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 59
+[02-Sep-2020 16:51:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:51:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:51:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:51:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:51:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:51:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:51:53 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 51
+[02-Sep-2020 16:51:53 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 62
+[02-Sep-2020 16:51:53 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 51
+[02-Sep-2020 16:51:53 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 62
+[02-Sep-2020 16:51:53 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 51
+[02-Sep-2020 16:51:53 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 62
+[02-Sep-2020 16:51:53 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 51
+[02-Sep-2020 16:51:53 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 62
+[02-Sep-2020 16:51:53 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 51
+[02-Sep-2020 16:51:53 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 62
+[02-Sep-2020 16:51:53 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 51
+[02-Sep-2020 16:51:53 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 62
+[02-Sep-2020 16:52:48 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:48 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:48 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:48 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:48 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:48 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:58 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:52:58 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:52:58 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:52:58 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:52:58 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:52:58 UTC] PHP Notice:  Array to string conversion in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 61
+[02-Sep-2020 16:52:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:53:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63
+[02-Sep-2020 16:54:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/user/list.php on line 63

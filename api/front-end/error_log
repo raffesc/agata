@@ -1,0 +1,32 @@
+[30-Jul-2020 19:18:16 UTC] PHP Notice:  Undefined property: stdClass::$id_project in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/insert.php on line 55
+[30-Jul-2020 19:18:16 UTC] PHP Notice:  Undefined property: stdClass::$nome in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/insert.php on line 56
+[30-Jul-2020 19:18:16 UTC] PHP Notice:  Undefined property: stdClass::$id_owner in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/insert.php on line 57
+[30-Jul-2020 19:18:16 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/insert.php on line 58
+[30-Jul-2020 19:18:16 UTC] PHP Notice:  Undefined property: stdClass::$type in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/insert.php on line 59
+[30-Jul-2020 20:20:38 UTC] PHP Warning:  Unterminated comment starting line 104 in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 104
+[30-Jul-2020 20:23:27 UTC] PHP Fatal error:  Uncaught Error: Class 'FrontEndAttributes' not found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 63
+[30-Jul-2020 20:29:16 UTC] PHP Notice:  Trying to get property 'id_front_end' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 126
+[30-Jul-2020 20:29:16 UTC] PHP Notice:  Trying to get property 'id_front_end' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 126
+[30-Jul-2020 20:29:16 UTC] PHP Notice:  Trying to get property 'id_front_end' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 126
+[30-Jul-2020 20:30:20 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 125
+[30-Jul-2020 20:30:20 UTC] PHP Notice:  Trying to get property 'id_front_end' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 126
+[30-Jul-2020 20:30:20 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 125
+[30-Jul-2020 20:30:20 UTC] PHP Notice:  Trying to get property 'id_front_end' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 126
+[30-Jul-2020 20:30:20 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 125
+[30-Jul-2020 20:30:20 UTC] PHP Notice:  Trying to get property 'id_front_end' of non-object in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 126
+[31-Jul-2020 02:45:38 Asia/Dhaka] PHP Warning:  move_uploaded_file(/home/u706024379/domains/therichesthumanintheworld.com/public_html/api/api/front-end/uploads/0.jpeg): failed to open stream: No such file or directory in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/models/lib/Upload.php on line 117
+[31-Jul-2020 02:45:38 Asia/Dhaka] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOH7qHD' to '/home/u706024379/domains/therichesthumanintheworld.com/public_html/api/api/front-end/uploads/0.jpeg' in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/models/lib/Upload.php on line 117
+[31-Jul-2020 02:46:06 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'FrontEndImage' not found in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/upload.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/upload.php on line 56
+[30-Jul-2020 20:52:12 UTC] PHP Notice:  Undefined index: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list_images.php on line 27
+[30-Jul-2020 20:52:41 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list_images.php on line 54
+[30-Jul-2020 20:53:05 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list_images.php on line 54
+[30-Jul-2020 20:53:33 UTC] PHP Notice:  Undefined index: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 27
+[30-Jul-2020 20:53:38 UTC] PHP Notice:  Undefined variable: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list_images.php on line 54
+[30-Jul-2020 20:54:25 UTC] PHP Notice:  Undefined index: id_front_end in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 27
+[30-Jul-2020 21:02:26 UTC] PHP Notice:  Undefined index: id_project in /home/u706024379/domains/therichesthumanintheworld.com/public_html/api/front-end/list.php on line 28
