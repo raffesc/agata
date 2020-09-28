@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Agata</string>
+
+
+    <string name="login_top_text">Benvenuto! Effettua la</string>
+    <string name="login">Login</string>
+    <string name="loading">Caricamento..</string>
+    <string name="forget_password">Password dimenticata?</string>
+    <string name="or">o</string>
+    <string name="registration">Registrazione</string>
+    <string name="home">Home</string>
+    <string name="esplora">Esplora</string>
+    <string name="profilo">Profilo</string>
+    <string name="nome">Nome</string>
+    <string name="cognome">Cognome</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="conferma_password">Conferma Password</string>
+    <string name="age">Et\u00e0</string>
+
+
+    <!-- Help string -->
+    <string name="no_connection_alert_title">Errore di connessione</string>
+    <string name="no_connection_alert_subtitle">Sembra che tu non sia connesso a Internet. Riprova!</string>
+    <string name="info">Info</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="annulla">Annulla</string>
+    <string name="attention">Attenzione</string>
+    <string name="university_complete">Universit\u00e0 degli Studi di Napoli Federico II</string>
+    <string name="system_error_closed">The app will be closed.</string>
+    <string name="header_title_university">UNIVERSIT\u00c0 DEGLI STUDI DI NAPOLI \nFEDERICO II \nDOCENTI UNINA</string>
+    <string name="accesso_disabilitato">Accesso Riservato</string>
+    <string name="user_already_present">Utente gi\u00e0 presente. Effettuare la login</string>
+    <!-- Generic error -->
+    <string name="warning">Attenzione</string>
+    <string name="generic_error_message">Si è verificato un errore generico. Per favore riprova.</string>
+    <string name="error_email">Controllare di aver scritto correttamente l\'email.</string>
+    <string name="error_password">Controllare che le due password coincidono.</string>
+    <string name="error_message_no_connection">Nessun segnale. Controlla la tua connessione dati</string>
+    <string name="error_fill_all_required_fileds_title">Campi obbligatori mancanti</string>
+    <string name="error_fill_all_required_fileds">Per favore compila tutti i campi obbligatori e riprova.</string>
+    <string name="login_error">Impossibile accedere, controlla le credenziali o riprova più tardi.</string>
+    <string name="no_login_error">Sezione privata. Per visualizzarne i contenuti, effettua la login</string>
+    <string name="no_result">Nessun risultato trovato</string>
+
+
+    <string name="change_primary">Cambia il colore primario</string>
+    <string name="logout">Effettua il logout</string>
+    <string name="aiuto">Aiuto</string>
+    <string name="privacy">Privacy</string>
+    <string name="terms_and_condition">Termini e Condizioni</string>
+    <string name="add_capital">AGGIUNGI</string>
+    <string name="annulla_capital">ANNULLA</string>
+    <string name="missing_permission">Permessi mancanti</string>
+    <string name="permission_denied">Per poter proseguire è necessario fornire le autorizzazioni necessarie.</string>
+    <string name="go_to_settings">Impostazioni</string>
+    <string name="cancel">Annulla</string>
+    <string name="camera">Fotocamera</string>
+    <string name="gallery">Galleria</string>
+
+</resources>

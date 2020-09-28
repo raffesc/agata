@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:background="@android:color/white"
+    android:id="@+id/external_constraint_layout"
+    android:layout_height="260dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_shadow_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+
+        <TextView
+            android:id="@+id/title_pattern"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/mainColor"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:layout_marginTop="10dp"
+            android:paddingStart="15dp"
+            android:textSize="16sp"
+            android:text="Model 1"
+            app:layout_constraintEnd_toStartOf="@+id/text_status"></TextView>
+
+
+
+
+            <TextView
+                android:id="@+id/text_status"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/bg_card_red"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="DOING"></TextView>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/mainColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_pattern"
+            app:layout_constraintEnd_toStartOf="@+id/text_status"
+            android:layout_marginTop="10dp"></View>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/mainColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_pattern"
+            app:layout_constraintStart_toEndOf="@+id/text_status"
+            android:layout_marginTop="10dp"></View>
+
+
+        <TextView
+            android:id="@+id/attributes"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            app:layout_constraintTop_toBottomOf="@+id/text_status"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/black"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:text="Testo di prova \n Testo di prova 2 \n \n Testo di \n gigin \n tewst \n testo"
+            ></TextView>
+
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_delete_forever_red_30dp"
+            android:layout_marginBottom="10dp"></ImageView>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

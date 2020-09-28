@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/external_constraint_layout"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_shadow_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20dp"
+        >
+
+
+        <TextView
+            android:id="@+id/title_pattern"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/mainColor"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:layout_marginTop="10dp"
+            android:paddingStart="15dp"
+            android:textSize="16sp"
+            android:text="Model 1"
+            app:layout_constraintEnd_toStartOf="@+id/text_status"></TextView>
+
+
+
+
+        <TextView
+            android:id="@+id/text_status"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_card_red"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:padding="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="DOING"></TextView>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/mainColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_pattern"
+            app:layout_constraintEnd_toStartOf="@+id/text_status"
+            android:layout_marginTop="10dp"></View>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/mainColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_pattern"
+            app:layout_constraintStart_toEndOf="@+id/text_status"
+            android:layout_marginTop="10dp"></View>
+
+
+        <TextView
+            android:id="@+id/query_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/text_status"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/black"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:text="Query parameters:"
+            ></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_query"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp"
+            android:overScrollMode="never"
+            android:layout_marginStart="10dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/query_title">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/recycler_view_query"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/black"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:text="Headers:"
+            ></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_header"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:overScrollMode="never"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/header_title">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/body_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/recycler_view_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/black"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:text="Body (JSON):"
+            ></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_body"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:overScrollMode="never"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/body_title">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycler_view_body"
+            android:elevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_delete_forever_red_30dp"></ImageView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

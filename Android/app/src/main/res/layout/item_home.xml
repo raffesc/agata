@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/external_constraint_layout"
+    android:layout_height="200dp"
+    android:paddingBottom="5dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="180dp"
+        android:background="@drawable/bg_shadow_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/background_top_color"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_card_color_1_top_radius"
+            >
+
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="10dp"></ImageView>
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:elevation="2dp"
+                android:text="TEST MOLTO LUNGO VEDIAMO CHE SCUCCU SDAHFAFH AFA"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center_vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="16sp"
+                android:padding="10dp"></TextView>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/first_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/background_top_color"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="RA"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_card_color_1"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/second_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/background_top_color"
+            app:layout_constraintStart_toEndOf="@id/first_user"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="RA"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_card_color_1"
+            ></TextView>
+
+        <TextView
+        android:id="@+id/third_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/background_top_color"
+        app:layout_constraintStart_toEndOf="@id/second_user"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="RA"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_card_color_1"
+        ></TextView>
+
+        <TextView
+            android:id="@+id/fourth_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/background_top_color"
+            app:layout_constraintStart_toEndOf="@id/third_user"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="RA"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_card_color_1"
+            ></TextView>
+
+
+        <TextView
+            android:id="@+id/fifth_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/background_top_color"
+            app:layout_constraintStart_toEndOf="@id/fourth_user"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="RA"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_card_color_1"
+            ></TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

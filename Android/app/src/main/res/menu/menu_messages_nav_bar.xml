@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_nav_item_messages"
+        android:enabled="true"
+        android:title="TEST" />
+
+    <item
+        android:id="@+id/bottom_nav_item_profile"
+        android:enabled="true"
+        android:title="TEST 2" />
+
+</menu>
